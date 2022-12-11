@@ -1,0 +1,40 @@
+body{
+    background-image:url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header,.footer{
+    text-align: center;
+    color:whitesmoke;
+}
+
+.container {
+    display: flex;
+    padding-top: 100px;
+}
+.cartCard{
+    display:flex;
+    min-height: 200px;
+}
+#cartTotal,#total{background-color: saddlebrown;}
+.item{
+    flex: 1;
+    color: aqua;
+
+}
+
+.itemPic{
+    width: 200px;
+    height: 100px;
+}
+.dis1{
+    flex:1;
+}
+#clearCart{
+    text-align: -webkit-left;
+}
+#reciveDiv{
+    height: 200px;
+}
+

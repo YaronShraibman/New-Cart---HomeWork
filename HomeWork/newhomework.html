@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Online Cart</title>
+  <link rel="stylesheet" href="homework.css">
+  <script type="text/javascript" src="scripthomework.js" defer></script>
+</head>
+<body>
+<div class="header">
+  <h1>Header</h1>
+</div>
+
+<div class="container">
+  <div class="item">
+    <h1>Pizza</h1>
+    <img class="itemPic" src="https://www.glutenfreepalate.com/wp-content/uploads/2018/08/Gluten-Free-Pizza-3.2.jpg">
+    <p>description Pizza</p>
+    <button onclick="addItem('pizza',12)">Add to cart</button>
+  </div>
+
+  <div class="item">
+    <h1>Burger</h1>
+    <img class="itemPic" src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p.jpg">
+    <p>description Burger</p>
+    <button onclick="addItem('burger',50)">Add to cart</button>
+  </div>
+
+  <div class="item">
+    <h1>Sushi</h1>
+    <img class="itemPic" src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000370/img/basic/a0000370_main.jpg?20201002142956&q=80&rw=750&rh=536">
+    <p>description Sushi</p>
+    <button onclick="addItem('Sushi',100)">Add to cart</button>
+  </div>
+  </div>
+</div>
+
+<div class="cartCard">
+  <div class="dis1">
+  </div>
+
+<div id="cart">
+  <div id="cartTotal">
+<span id="itemName">Name</span>
+    <span id="itemPrice">Price</span>
+    <span id="RemoveItem">Remove</span>
+    <div id="reciveDiv"></div>
+  </div>
+<div id="total">total</div>
+</div>
+
+  <div class="dis1">
+  </div>
+
+</div>
+
+<div class="footer">
+  <h1>Footer</h1>
+</div>
+</body>
+</html>
